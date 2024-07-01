@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-read --allow-net --allow-write main.ts"
+  },
+  "imports": {
+    "dotenv": "https://deno.land/x/dotenv@v3.2.2/mod.ts",
+    "oak": "https://deno.land/x/oak@14.2.0/mod.ts",
+    "cors": "https://deno.land/x/cors@v1.2.2/mod.ts",
+    "fs": "https://deno.land/std@0.222.1/fs/mod.ts"
+  }
+}
